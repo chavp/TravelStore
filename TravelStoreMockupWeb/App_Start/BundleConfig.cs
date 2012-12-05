@@ -38,6 +38,20 @@ namespace TravelStoreMockupWeb
                         "~/Content/themes/base/jquery.ui.datepicker.css",
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/adminica").Include(
+                        "~/Scripts/adminica/scripts/plugins-min.js",
+                        "~/Scripts/adminica/scripts/adminica/adminica_all-.js",
+                        "~/Scripts/adminica/scripts/adminica/adminica_all-min.js"));
+
+            bundles.Add(new StyleBundle("~/Content/adminica/css").Include(
+                "~/Content/adminica/styles/plugins/all/plugins.css",
+                "~/Content/adminica/styles/adminica/all.css",
+                "~/Content/adminica/styles/themes/skin_light.css",
+                "~/Content/adminica/styles/themes/theme_blue.css",
+                "~/Content/adminica/styles/themes/switcher.css",
+                "~/Content/adminica/styles/themes/colours.css"
+                ));
         }
     }
 }

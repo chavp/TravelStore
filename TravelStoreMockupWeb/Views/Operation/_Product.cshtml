@@ -1,0 +1,225 @@
+﻿<div id="create_product" class="dialog_content wide clearfix" title="Create Product">
+    <div class="block">
+        <div class="columns clearfix">
+            <div class="col_50">
+                <fieldset class="label_side">
+                    <label>Product Type</label>
+                    <div class="clearfix">
+                        <select class="uniform full_width">
+                            <option>Collective</option>
+                            <option>Incentive</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col_50">
+                <fieldset class="label_side">
+                    <label for="text_field_inline">Active date</label>
+                    <div class="clearfix">
+                        <input type="text" class="datepicker">
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="columns clearfix">
+            <div class="col_50">
+                <fieldset class="no_label">
+                    <div class="uniform inline clearfix">
+                        <label for="is_complete">
+                            <input type="checkbox" name="answer4b" id="yes4b" />Is Complete</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col_50">
+                <fieldset class="no_label">
+                    <div class="uniform inline clearfix">
+                        <label for="is_disable">
+                            <input type="checkbox" name="answer4b" id="yes4b" />Is Disable</label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+
+    <div class="box grid_16 clearfix">
+        <h2 class="box_head">Part 1: Country or Province</h2>
+        <div class="controls">
+            <a href="#" class="toggle"></a>
+        </div>
+        <form class="validate_form" novalidate="novalidate">
+            <fieldset class="label_side">
+                <label>Outbound or Domestic</label>
+                <div class="clearfix">
+                    <select class="uniform full_width">
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset class="label_side">
+                <label>Continent / Region</label>
+                <div class="clearfix">
+                    <select class="uniform full_width">
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset class="label_side">
+                <label>Continent or Province</label>
+                <div class="clearfix">
+                    <select class="uniform full_width">
+                        <option>Thailand</option>
+                    </select>
+                </div>
+            </fieldset>
+            <div class="columns clearfix">
+                <div class="col_50">
+                    <fieldset class="no_label">
+                        <div class="uniform inline clearfix">
+                            <label for="is_visa_required">
+                                <input type="checkbox" name="answer4b" id="yes4b" />Is Complete</label>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col_50">
+                    <fieldset class="label_side">
+                        <label for="text_field_inline">Visa request date</label>
+                        <div class="clearfix">
+                            <input type="text" class="datepicker">
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="button_bar clearfix">
+                <button class="grey dark send_right">
+                    <img src="~/Content/lib/images/icons/small/white/expose.png">
+                    <span>Add Country or Provice</span>
+                </button>
+            </div>
+            <div class="box grid_16 clearfix">
+                <h2 class="box_head">Country or Province: 0 Items</h2>
+                <div class="block">
+                    <table class="static">
+                        <thead>
+                            <tr>
+                                <th>
+                                    No
+                                </th>
+                                <th>
+                                    Country or Province
+                                </th>
+                                <th>
+                                    Visa
+                                </th>
+                                <th>
+                                    Visa R.Date
+                                </th>
+                                <th>
+                                    Action
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- Country or Province -->
+    <div class="box grid_16 clearfix">
+        <h2 class="box_head">Part 2: Group Tour Details</h2>
+        <div class="controls">
+            <a href="#" class="toggle"></a>
+        </div>
+        <form class="validate_form" novalidate="novalidate">
+            <fieldset class="label_side label_small">
+                <label for="text_field_inline">Product Code</label>
+                <div>
+                    <input type="text" class="text">
+                </div>
+            </fieldset>
+            <fieldset class="label_side label_small">
+                <label for="text_field_inline">
+                    Product Name(TH)</label>
+                <div>
+                    <input type="text" class="text">
+                </div>
+            </fieldset>
+            <fieldset class="label_side label_small">
+                <label for="text_field_inline">
+                    Product Name(EN)</label>
+                <div>
+                    <input type="text" class="text">
+                </div>
+            </fieldset>
+            <fieldset class="label_side label_small">
+                <label for="text_field_inline">
+                    Stay Day</label>
+                <div class="columns clearfix">
+                    <div class="col_50">
+                        <input type="text" name="required_name" id="required_name" class="required">
+                        <label for="text_field_inline">Day</label>
+                    </div>
+                    <div class="col_50">
+                        <input type="text" name="required_email" id="required_email" class="required email">
+                        <label for="text_field_inline">Night</label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="label_side label_small right">
+                <label for="file_upload">
+                    Upload word</label>
+                <div class="clearfix">
+                    <input type="file" id="fileupload" class="uniform">
+                </div>
+            </fieldset>
+            <fieldset class="label_side label_small right">
+                <label for="file_upload">
+                    Upload pdf</label>
+                <div class="clearfix">
+                    <input type="file" id="fileupload" class="uniform">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <!-- Group Tour Details -->
+    <div class="box grid_16 clearfix">
+        <h2 class="box_head">Part 3: Period and Price</h2>
+        <div class="controls">
+            <a href="#" class="toggle"></a>
+        </div>
+        <form class="validate_form" novalidate="novalidate">
+            
+        </form>
+    </div>
+    <!-- Period and Price -->
+    <div class="box grid_16 clearfix">
+        <h2 class="box_head">
+            Part 4: Agent & Special Rates</h2>
+        <div class="controls">
+            <a href="#" class="toggle"></a>
+        </div>
+        <form class="validate_form" novalidate="novalidate">
+        
+        </form>
+    </div>
+    <!-- Agent & Special Rates -->
+    <div class="box grid_16 clearfix">
+        <h2 class="box_head">
+            Part 5: Staff</h2>
+        <div class="controls">
+            <a href="#" class="toggle"></a>
+        </div>
+        <form class="validate_form" novalidate="novalidate">
+        </form>
+    </div>
+    <!-- Staff -->
+    <div class="box grid_16 clearfix">
+        <h2 class="box_head">Part 6: Documents</h2>
+        <div class="controls">
+            <a href="#" class="toggle"></a>
+        </div>
+        <form class="validate_form" novalidate="novalidate">
+        
+        </form>
+    </div>
+    <!-- Documents -->
+</div>
